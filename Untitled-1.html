@@ -1,0 +1,238 @@
+<header id="sticky-menu" class="fixed top-0 left-0 w-full z-50 bg-white shadow-md">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+        <!-- Logo -->
+        <a href="/" class="flex-shrink-0">
+          <img src="https://azzle.netlify.app/assets/img/logo-dark.png" alt="AIMass" class="w-24 h-auto" />
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="hidden lg:flex items-center space-x-8">
+          <ul class="flex items-center space-x-8">
+            <!-- Home Menu -->
+            <li class="nav-item relative group">
+              <a href="#" class="flex items-center text-black font-semibold hover:text-primary-color">
+                <span>Demo</span>
+                <svg class="ml-1 w-4 h-4 dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </a>
+              <div class="nav-dropdown hidden group-hover:block absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg p-2 z-50">
+                <a href="#" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Home 01</a>
+                <a href="/index-2" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Home 02</a>
+                <a href="/index-3" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Home 03</a>
+                <a href="/index-4" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Home 04</a>
+              </div>
+            </li>
+            
+            <!-- About -->
+            <li class="nav-item">
+              <a href="/about" class="text-black font-semibold hover:text-primary-color">About</a>
+            </li>
+            
+            <!-- Services Menu -->
+            <li class="nav-item relative group">
+              <a href="#" class="flex items-center text-black font-semibold hover:text-primary-color">
+                <span>Services</span>
+                <svg class="ml-1 w-4 h-4 dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </a>
+              <div class="nav-dropdown absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg p-2">
+                <a href="/services" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Services</a>
+                <a href="/service-details" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Service Details</a>
+              </div>
+            </li>
+            
+            <!-- Pages Menu -->
+            <li class="nav-item relative group">
+              <a href="#" class="flex items-center text-black font-semibold hover:text-primary-color">
+                <span>Pages</span>
+                <svg class="ml-1 w-4 h-4 dropdown-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </a>
+              <div class="nav-dropdown absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-lg p-2">
+                <!-- Blog submenu -->
+                <div class="group/submenu relative">
+                  <a href="#" class="flex items-center justify-between px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">
+                    <span>Blogs</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="hidden group-hover/submenu:block absolute left-full top-0 w-48 bg-white rounded-lg shadow-lg p-2">
+                    <a href="/blog" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Blogs</a>
+                    <a href="/blog-details" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Blog Details</a>
+                  </div>
+                </div>
+                
+                <!-- Team submenu -->
+                <div class="group/submenu relative">
+                  <a href="#" class="flex items-center justify-between px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">
+                    <span>Team</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                  </a>
+                  <div class="hidden group-hover/submenu:block absolute left-full top-0 w-48 bg-white rounded-lg shadow-lg p-2">
+                    <a href="/teams" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Teams</a>
+                    <a href="/team-details" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Team Details</a>
+                  </div>
+                </div>
+                
+                <!-- Other page links -->
+                <a href="/pricing" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Pricing</a>
+                <a href="/contact" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">Contact</a>
+              </div>
+            </li>
+            
+            <!-- Contact -->
+            <li class="nav-item">
+              <a href="/contact" class="text-black font-semibold hover:text-primary-color">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Action Buttons -->
+        <div class="hidden lg:flex items-center space-x-4">
+          <a href="/login" class="btn-primary px-6 py-2 border border-gray-400 rounded-full font-medium hover:border-primary-color">Login</a>
+          <a href="/signup" class="px-6 py-2 bg-black text-white border border-black rounded-full font-medium hover:bg-primary-color hover:border-primary-color">Sign up free</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="openMenu" class="lg:hidden flex flex-col space-y-1.5">
+          <span class="block w-6 h-0.5 bg-black "></span>
+          <span class="block w-6 h-0.5 bg-black "></span>
+          <span class="block w-6 h-0.5 bg-black"></span>
+        </button>
+      </div>
+
+      <!-- Overlay -->
+      <div id="overlay" class="fixed inset-0 bg-black/40 z-40 hidden lg:hidden"></div>
+
+      <!-- Sidebar chính -->
+      <div id="sidebarMenu"
+        class="fixed top-0 left-0 w-72 h-screen bg-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto">
+        <div class="flex items-center justify-between p-4 border-b">
+          <span class="text-lg font-semibold">Menu</span>
+          <button id="closeMenu" class="text-xl font-bold">&times;</button>
+        </div>
+
+        <ul class="p-4 space-y-3">
+          <li><a href="/" class="block font-medium hover:text-orange-500">Home</a></li>
+          <li><a href="/about" class="block font-medium hover:text-orange-500">About</a></li>
+          <li><a href="/services" class="block font-medium hover:text-orange-500">Services</a></li>
+          <li><button id="openPagesMenu" class="block font-medium w-full text-left hover:text-orange-500">Pages</button>
+          </li>
+          <li><a href="/contact" class="block font-medium hover:text-orange-500">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Submenu Pages -->
+      <div id="pagesMenu"
+        class="fixed top-0 left-0 w-72 h-screen bg-white z-[60] transform -translate-x-full transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto">
+        <div class="flex items-center justify-between p-4 border-b">
+          <button id="backToMain" class="text-xl font-bold">&#8592;</button>
+          <span class="text-lg font-semibold">Pages</span>
+          <button id="closePagesMenu" class="text-xl font-bold">&times;</button>
+        </div>
+
+        <ul class="p-4 space-y-3">
+          <li><a href="/blog" class="block font-medium hover:text-orange-500">Blogs</a></li>
+          <li><a href="/teams" class="block font-medium hover:text-orange-500">Team</a></li>
+          <li><a href="/faq" class="block font-medium hover:text-orange-500">FAQ</a></li>
+          <li><a href="/portfolio" class="block font-medium hover:text-orange-500">Portfolio</a></li>
+          <li><a href="/pricing" class="block font-medium hover:text-orange-500">Pricing</a></li>
+          <li><a href="/login" class="block font-medium hover:text-orange-500">Utilities</a></li>
+        </ul>
+      </div>
+    </header>
+
+
+
+<div
+          class="bg-black rounded-xl border border-[#eec3a9]/60 shadow-sm flex flex-col items-center text-center p-7 gap-6 text-white transition duration-300 ease-in-out hover:bg-[#1c1c1c] hover:border-[#1c1c1c]">
+          <img src="https://ext.same-assets.com/3431609572/218451300.svg" alt="Resource Flexibility"
+            class="w-12 h-12 mx-auto mb-2">
+          <a href="#" class="font-semibold text-lg mb-1 hover:text-[#eca88f] transition duration-300 ease-in-out">Resource
+            Flexibility</a>
+          <p class="text-white/70 text-base">This is an excellent option for people & small businesses who are
+            starting out.</p>
+          <a href="#"
+            class="w-8 h-8 rounded-full flex items-center justify-center bg-[#eca88f]/30 hover:bg-[#eca88f] transition duration-300 ease-in-out">
+            <img src="https://ext.same-assets.com/3431609572/621918304-white.svg" alt="arrow icon" class="w-5 h-5">
+          </a>
+        </div>
+
+    <img src="https://ext.same-assets.com/3431609572/621918304-white.svg" alt="arrow icon" class="w-5 h-5">
+
+    <h1 id="tieude--1" class="max-w-3xl font-bold text-9xl md:text-5xl lg:text-6xl mb-6 leading-tight">
+      <span class="move-left">Simplify your SaaS</span> <br class="hidden md:inline " > 
+    </h1>
+    <p class="max-w-xl text-lg md:text-xl text-[#9c9c9a] mb-7">
+     <span class="move-up"> Our AI SAAS tool is a cloud-based software delivery model. It helps businesses forecast demand for</span><br>
+     <span class="move--up"> products and services and optimize inventory management and supply chain operations.</span>
+    </p>
+
+    <h2>Providing quick <br> deploy solutions</h2>
+
+    
+    <section id="funfact-section" class="bg-black text-white py-20">
+      <div class="mx-auto max-w-[1500px] px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center rounded-[40px] overflow-hidden">
+        
+        <!-- Cột hình ảnh -->
+        <div class="relative">
+          <img
+            src="https://azzle.netlify.app/assets/img/th-1/funfact-image.jpg"
+            alt="funfact"
+            class="w-full h-full object-cover rounded-l-[40px] max-h-[550px]"
+          />
+          <a
+            href="https://www.youtube.com/watch?v=3nQNiWdeH2Q"
+            data-fslightbox="gallery"
+            class="absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2"
+          >
+            <div
+              class="flex items-center justify-center h-[100px] w-[100px] rounded-full bg-white text-black font-semibold border-4 border-black hover:bg-red-600 hover:text-white transition duration-300"
+            >
+              Play
+            </div>
+          </a>
+        </div>
+    
+        <!-- Cột nội dung -->
+        <div class="flex flex-col justify-center gap-10 pr-4">
+          
+          <!-- Tiêu đề và mô tả -->
+          <div>
+            <h2 class="text-4xl md:text-5xl font-bold leading-snug mb-4">
+              AI-powered that<br class="hidden sm:inline"> streamline tasks
+            </h2>
+            <p class="text-base md:text-lg leading-relaxed text-[#cccccc] max-w-xl">
+              As your business grows or your AI SaaS needs change, you can easily adjust your subscription
+              level to match those needs. This flexibility ensures that AI remains an asset.
+            </p>
+          </div>
+    
+          <!-- Dữ liệu phần trăm -->
+          <div class="pt-4 border-t border-[#333]">
+            <ul class="flex flex-col sm:flex-row gap-6 sm:gap-16 text-center sm:text-left">
+              <li>
+                <h3 class="text-5xl md:text-6xl font-extrabold text-red-600">
+                  92%
+                </h3>
+                <p class="text-lg mt-2 text-white">Customer service inquiries</p>
+              </li>
+              <li>
+                <h3 class="text-5xl md:text-6xl font-extrabold text-red-600">
+                  75%
+                </h3>
+                <p class="text-lg mt-2 text-white">Using financial institutions</p>
+              </li>
+            </ul>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+    

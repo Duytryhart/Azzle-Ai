@@ -1,0 +1,188 @@
+@media only screen and (max-width: 800px) {
+  #tieude--1 {
+    font-size: 2.2rem !important;
+  }
+  .move-up,
+  .move--up {
+    font-size: 16px !important;
+    color: red; /* chỉ để test dễ thấy, có thể bỏ */
+  }
+}
+.tieudeso{
+  position: relative;
+  left: 5.5rem;
+}
+#tieude--1{
+  white-space: nowrap;
+  transform: translateX(-5rem);
+  max-width: 48rem;       
+  font-weight: bold;      
+  font-size: 8rem;       
+  margin-bottom: 1.5rem;  
+  line-height: 1.25; 
+}
+
+.move-up{
+    white-space: nowrap;
+    position: relative;
+    left: -13rem;
+    color: black;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.font-core{
+  font-size: 4rem;
+  font-weight: 650;
+  position: relative;
+  top: 3rem;
+ 
+}
+/* === Base styles (desktop-first) === */
+
+#funfact-section {
+  background-color: black;
+  color: white;
+  padding: 3rem 0;
+  border-radius: 1rem;
+  width: 1527px;
+  height: 900px;
+  position: relative;
+}
+
+.image-column {
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.image-column img {
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+}
+
+.play-button-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  border: 3px solid black;
+  background-color: white;
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 1.125rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.play-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.content-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 0 1rem;
+}
+
+.content-top h2 {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.content-top p {
+  font-size: 1.3125rem; /* 21px */
+  line-height: 1.6;
+}
+
+.content-bottom {
+  border-top: 1px solid #4b5563;
+  padding-top: 2rem;
+}
+
+.content-bottom ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 2rem;
+}
+
+.content-bottom h3 {
+  font-size: 8rem;
+  font-weight: 660;
+  color: #dc2626; /* Tailwind red-600 */
+}
+
+.content-bottom p {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+
+/* === Responsive styles for small screens (based on video) === */
+@media only screen and (max-width: 800px) {
+
+  #funfact-section {
+    padding: 2rem 1rem;
+  }
+
+  .image-column img {
+    height: 16rem;
+    border-radius: 20px;
+  }
+
+  .play-button {
+    width: 80px;
+    height: 80px;
+    font-size: 1rem;
+  }
+
+  .content-top h2 {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+
+  .content-top p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  .content-bottom ul {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .content-bottom h3 {
+    font-size: 3.5rem !important;
+    color: #dc2626;
+  }
+
+  .content-bottom p {
+    font-size: 1rem;
+  }
+}
+.animate__animated.animate__fadeInUp{
+  --animate-duration: 3s;
+}
+.animate__animated .animate__fadeIn{
+  --animate-duration: 3s;
+}
+.icon-taget{
+  font-size: 2rem;
+}

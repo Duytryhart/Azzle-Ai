@@ -1,0 +1,890 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Azzle - AI Technology & Startup HTML Template</title>
+  <meta name="description" content="AIMass Tailwind based SASS Template" />
+  <link rel="icon" href="assets/img/favicon.png" />
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Slick CSS & JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+  <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="clorr-nn">
+
+    <div class="page-wrapper relative z-[1] bg-white">
+      <!-- Header -->
+      <header class="header-absolute w-full py-4" id="main-header">
+        <div class="container mx-auto px-4 lg:px-8">
+          <div class="flex items-center justify-between">
+            <!-- Logo -->
+            <a href="/" class="flex-shrink-0">
+              <img src="https://azzle.netlify.app/assets/img/logo-dark.png" alt="Azzle" class="h-8" />
+            </a>
+  
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex items-center space-x-8">
+              <ul class="flex items-center space-x-8">
+                <!-- Home Menu -->
+                <li class="nav-item relative group">
+                  <a href="#" class="flex items-center text-black font-semibold hover:text-primary-color">
+                    <span>Demo</span>
+                    <svg class="ml-1 w-4 h-4 dropdown-arrow transition-transform duration-300 group-hover:-rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                  </a>
+                  <div
+                    class="nav-dropdown hidden group-hover:block  absolute  left-0 top-full w-48 bg-white rounded-lg shadow-lg p-2 z-50">
+                    <a href="/" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Home 01</a>
+                    <a href="/index-2" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Home
+                      02</a>
+                    <a href="/index-3" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Home
+                      03</a>
+                    <a href="/index-4" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Home
+                      04</a>
+                  </div>
+                </li>
+  
+                <!-- About -->
+                <li class="nav-item">
+                  <a href="/about" class="text-black font-semibold hover:text-primary-color">About</a>
+                </li>
+  
+                <!-- Services Menu -->
+                <li class="nav-item relative group">
+                  <a href="#" class="flex items-center text-black font-semibold hover:text-primary-color">
+                    <span>Services</span>
+                    <svg class="ml-1 w-4 h-4 dropdown-arrow transition-transform duration-300 group-hover:-rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                  </a>
+                  <div
+                    class="nav-dropdown hidden group-hover:block  absolute  left-0 top-full w-48 bg-white rounded-lg shadow-lg p-2 z-50">
+                    <a href="/services"
+                      class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Services</a>
+                    <a href="/service-details"
+                      class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Service Details</a>
+                  </div>
+                </li>
+  
+                <!-- Pages Menu -->
+                <li class="nav-item   relative group">
+                  <a href="#" class="flex items-center text-black font-semibold hover:text-primary-color">
+                    <span>Pages</span>
+                    <svg class="ml-1 w-4 h-4 dropdown-arrow transition-transform duration-300 group-hover:-rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                  </a>
+                  <div
+                    class="nav-dropdown hidden group-hover:block  absolute  left-0 top-full w-48 bg-white rounded-lg shadow-lg p-2 z-50">
+                    <!-- Blog submenu -->
+                    <div class="group/submenu relative">
+                      <a href="#"
+                        class="flex items-center justify-between px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">
+                        <span class="hover:text-[rgb(225,73,19)]">Blogs</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <div
+                        class="hidden group-hover/submenu:block absolute left-full top-0 w-48 bg-white rounded-lg shadow-lg p-2">
+                        <a href="/blog" class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Blogs</a>
+                        <a href="/blog-details"
+                          class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Blog Details</a>
+                      </div>
+                    </div>
+  
+                    <!-- Team submenu -->
+                    <div class="group/submenu relative">
+                      <a href="#"
+                        class="flex items-center justify-between px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">
+                        <span class="hover:text-[rgb(225,73,19)]">Team</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                      </a>
+                      <div
+                        class="hidden group-hover/submenu:block absolute left-full top-0 w-48 bg-white rounded-lg shadow-lg p-2">
+                        <a href="/teams"
+                          class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Teams</a>
+                        <a href="/team-details"
+                          class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Team Details</a>
+                      </div>
+                    </div>
+  <!-- FAQ -->
+  
+  <div class="group/submenu relative">
+    <a href="#"
+      class="flex items-center justify-between px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">
+      <span class="hover:text-[rgb(225,73,19)]">FAQ</span>
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+      </svg>
+    </a>
+    <div
+      class="hidden group-hover/submenu:block absolute left-full top-0 w-48 bg-white rounded-lg shadow-lg p-2">
+      <a href="/teams"
+        class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">FAQ-1</a>
+      <a href="/team-details"
+        class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">FAQ-2</a>
+    </div>
+  </div>
+  <!-- portfolio -->
+  
+  <div class="group/submenu relative">
+    <a href="#"
+      class="flex items-center justify-between px-4 py-2 text-sm font-medium hover:bg-gray-100 rounded-md">
+      <span>Portfolio</span>
+      <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+      </svg>
+    </a>
+    <div
+      class="hidden group-hover/submenu:block absolute left-full top-0 w-48 bg-white rounded-lg shadow-lg p-2">
+      <a href="/teams"
+        class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Portfolio</a>
+      <a href="/team-details"
+        class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Portfolio Details</a>
+    </div>
+  </div>
+                    <!-- Other page links -->
+                    <a href="/pricing"
+                      class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Pricing</a>
+                      <div class="group/submenu relative">
+                        <a href="#"
+                          class="flex items-center justify-between px-4 py-2 text-sm  font-medium hover:bg-gray-100 rounded-md">
+                          <span class="hover:text-[rgb(225,73,19)]">Utilities</span>
+                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                        <div
+                          class="hidden group-hover/submenu:block absolute left-full top-0 w-48 bg-white rounded-lg shadow-lg p-2">
+                          <a href="/teams"
+                            class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Error 404</a>
+                          <a href="/team-details"
+                            class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Login</a>
+                          <a href="/team-details"
+                            class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Signup</a>
+                          <a href="/team-details"
+                            class="block px-4 py-2 text-sm font-medium hover:bg-gray-100 hover:text-[rgb(225,73,19)] rounded-md">Reset Password</a>
+                        </div>
+                      </div>
+                  </div>
+                </li>
+  
+                <!-- Contact -->
+                <li class="nav-item">
+                  <a href="/contact" class="text-black font-semibold hover:text-primary-color">Contact</a>
+                </li>
+              </ul>
+            </nav>
+  
+            <!-- Action Buttons -->
+            <div class="hidden lg:flex items-center space-x-2">
+              <!-- Nút Login -->
+              <a href="/login"
+                 class="relative group px-6 py-2 border border-gray-400 rounded-full font-medium overflow-hidden text-black">
+                <span
+                  class="absolute inset-0 bg-[#FF6838] -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out z-0">
+                </span>
+                <span class="relative z-10 group-hover:text-white">Login</span>
+              </a>
+            
+              <!-- Nút Sign up -->
+              <a href="/signup"
+                 class="relative group px-6 py-2 bg-black text-white border border-black rounded-full font-medium overflow-hidden">
+                <span
+                  class="absolute inset-0 bg-[#FF6838] -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out z-0">
+                </span>
+                <span class="relative z-10">Sign up free</span>
+              </a>
+            </div>
+            
+  
+            <button id="openMenu" class="lg:hidden flex flex-col space-y-1.5">
+              <span class="block w-6 h-0.5 bg-black "></span>
+              <span class="block w-6 h-0.5 bg-black "></span>
+              <span class="block w-6 h-0.5 bg-black"></span>
+            </button>
+  
+          </div>
+          <div id="overlay" class="fixed inset-0 bg-black/40 z-40 hidden lg:hidden"></div>
+          <div id="sidebarMenu" class="fixed top-0 left-0 w-72 h-screen bg-white z-50 transform -translate-x-full transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto">
+            <div class="flex items-center justify-between p-4 border-b">
+              <button id="closeMenu" class="text-xl font-bold">&times;</button>
+            </div>
+            <ul class="p-4 space-y-3">
+              <!-- DEMO -->
+              <li>
+                <button id="openDemoMenu" class="w-full flex justify-between items-center font-medium hover:text-orange-500 group">
+                    <span>Demo</span>
+                    <svg id="demoArrow" class="ml-1 w-4 h-4 dropdown-arrow transition-transform duration-300 rotate-90 group-hover:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </li>
+              <li><a href="/about" class="block font-medium hover:text-orange-500">About</a></li>
+          
+              <!-- SERVICE -->
+              <li>
+                <li>
+                  <button id="openDemoMenu" class="w-full flex justify-between items-center font-medium hover:text-orange-500 group">
+                      <span>Service</span>
+                      <svg id="demoArrow" class="ml-1 w-4 h-4 dropdown-arrow transition-transform duration-300 rotate-90 group-hover:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                      </svg>
+                  </button>
+              </li>
+              </li>
+          
+              <!-- PAGE  -->
+              <li>
+                <button id="openPagesMenu" class="w-full flex justify-between items-center font-medium hover:text-orange-500 group">
+                    <span>Page</span>
+                    <svg id="demoArrow" class="ml-1 w-4 h-4 dropdown-arrow transition-transform duration-300 rotate-90 group-hover:rotate-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+            </li>
+          
+           
+              <li><a href="/contact" class="block font-medium hover:text-orange-500">Contact</a></li>
+            </ul>
+          </div>
+          
+          <!-- DEMO Submenu -->
+          <div id="demoMenu" class="fixed top-0 left-0 w-72 h-screen bg-white z-[60] transform -translate-x-full transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto">
+            <div class="flex items-center justify-between p-4 border-b">
+              <button id="backToMainFromDemo" class="text-xl font-bold">&#8592;</button>
+              <span class="text-lg font-semibold">Demo</span>
+              <button class="text-xl font-bold">&times;</button>
+            </div>
+            <ul class="p-4 space-y-3">
+              <li><a href="#" class="block font-medium hover:text-orange-500">Home 01</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">Home 02</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">Home 03</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">Home 04</a></li>
+            </ul>
+          </div>
+          
+          <!-- SERVICE Submenu -->
+          <div id="serviceMenu" class="fixed top-0 left-0 w-72 h-screen bg-white z-[60] transform -translate-x-full transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto">
+            <div class="flex items-center justify-between p-4 border-b">
+              <button  id="backToMainFromService" class="text-xl font-bold">&#8592;</button>
+              <span  class="text-lg font-semibold">Service</span>
+              <button class="text-xl font-bold">&times;</button>
+            </div>
+            <ul class="p-4 space-y-3">
+              <li><a href="#" class="block font-medium hover:text-orange-500">Service</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">Detail Service</a></li>
+            </ul>
+          </div>
+          
+          <!-- PAGE Submenu -->
+          <div id="pagesMenu" class="fixed top-0 left-0 w-72 h-screen bg-white z-[60] transform -translate-x-full transition-transform duration-300 ease-in-out lg:hidden overflow-y-auto">
+            <div class="flex items-center justify-between p-4 border-b">
+              <button id="backToMainFromPages" class="text-xl font-bold">&#8592;</button>
+              <span class="text-lg font-semibold">Pages</span>
+              <button class="text-xl font-bold">&times;</button>
+            </div>
+            <ul class="p-4 space-y-3">
+              <li><a href="#" class="block font-medium hover:text-orange-500">Blogs</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">Team</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">FAQ</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">Portfolio</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">Pricing</a></li>
+              <li><a href="#" class="block font-medium hover:text-orange-500">Utilities</a></li>
+            </ul>
+          </div>
+          
+  
+        </div>
+  
+        <!-- Mobile Menu -->
+  
+      </header>
+    </div>
+    <section class="w-full bg-[#f7f4f1] pt-10 lg:pt-20 pb-6 lg:pb-14">
+      <div class="container  mx-auto px-4 flex flex-col items-center text-center">
+      <div class="wow animate__animated animate__fadeInUp">
+        <h1 id="tieude--1" class="jos  slide-from-bottom mb-6 max-w-[510px] lg:max-w-[768px] xl:max-w-[1076px]">
+          Simplify your SaaS <br> <span class="tieudeso">solution with AI</span>
+      </h1>
+      <p
+          class="jos slide-from-bottom mb-11 max-w-[700px] text-lg font-semibold sm:text-xl xl:max-w-[980px]">
+          Our AI SAAS tool is a cloud-based software delivery model. It
+          helps businesses forecast demand for <br> products and services and
+          optimize inventory management and supply chain operations.
+      </p>
+      </div>
+         
+    
+        <!-- Button group -->
+        <div class="flex items-center space-x-3">
+          <!-- Get started for free -->
+          <a href="/signup"
+          class="relative group px-6 py-2 bg-black text-white border border-black rounded-full font-medium overflow-hidden">
+         <span
+           class="absolute inset-0 bg-[#FF6838] -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out z-0">
+         </span>
+         <span class="relative z-10">Get started for free</span>
+       </a>
+    
+          <!-- Learn more -->
+          <a href="#"
+             class="relative group px-6 py-3 border border-black text-black rounded-full font-semibold overflow-hidden bg-white">
+            <span
+              class="absolute inset-0 bg-[#FF6838] -translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out z-0">
+            </span>
+            <span class="relative z-10 group-hover:text-white">Learn more</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+
+        <!-- Dashboard mockup image có gradient nền -->
+       <div>
+        <img id="photo--1" class="flex wow animate__animated animate__fadeIn justify-center" src="https://ext.same-assets.com/3431609572/444822308.jpeg" alt="">
+       </div>
+      </div>
+  
+      <section class=" h-64 bg-[#f7f4f1] py-6 lg:py-7">
+        <div class="container relative top-20 mx-auto px-4">
+          <p class="text-center wow animate__animated animate__fadeInUp text-gray-700">
+            Companies of all sizes trust us to find AI SaaS critical to their growth and
+            innovation
+          </p>
+          <div class="autoplay  ">
+           <div class="icon-taget">
+            <img
+            src="https://ext.same-assets.com/3431609572/2520967776.png"
+            alt="Greenish brand"
+           
+            class="slick-slide  w-auto grayscale opacity-90"
+          />
+           </div>
+           <div class="icon-taget">
+            <img
+            src="https://ext.same-assets.com/3431609572/3844597943.png"
+            alt="Luminous brand"
+          
+            class="slick-slide  w-auto grayscale opacity-90"
+          />
+           </div>
+          <div class="icon-taget">
+            <img
+            src="https://ext.same-assets.com/3431609572/753519589.png"
+            alt="Network brand"
+           
+            class="slick-slide w-auto grayscale opacity-90"
+          />
+          </div>
+          <div class="icon-taget">
+            <img
+            src="https://ext.same-assets.com/3431609572/3000200315.png"
+            alt="Umbrella brand"
+           
+            class="slick-slide w-auto grayscale opacity-90"
+          />
+            </div>
+          <div class="icon-taget">
+            <img
+            src="https://ext.same-assets.com/3431609572/4024153155.png"
+            alt="Sitemark brand"
+            
+            class="h-8 w-auto grayscale opacity-90"
+          />
+          </div>
+          <div class="icon-taget">
+            <img
+            src="https://ext.same-assets.com/3431609572/3000200315.png"
+            alt="Umbrella brand"
+           
+            class="slick-slide w-auto grayscale opacity-90"
+          />
+            </div>
+          </div>
+        </div>
+      </section>
+  </div>
+  
+
+<section id="section-service">
+  <!-- Section Spacer -->
+  <div class="pb-20 pt-20 xl:pb-[150px] xl:pt-[130px]">
+      <!-- Section Container -->
+      <div class="global-container">
+          <!-- Section Content Block -->
+          <div class="jos mb-10 lg:mb-16 xl:mb-20">
+              <div class="md:max-w-sm lg:max-w-xl xl:max-w-[646px]">
+                  <h2 class="font-core wow animate__animated animate__fadeInUp">Core features that <br> make it valuable</h2>
+              </div>
+          </div>
+          <!-- Section Content Block -->
+          <!-- Service List -->
+          <ul
+              class="jos grid wow animate__animated animate__fadeInUp grid-cols-1 gap-[2px] overflow-hidden rounded-[10px] border-2 border-black bg-black sm:grid-cols-2 lg:grid-cols-4">
+              <!-- Service Item -->
+              <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                  <div class="relative mb-9 h-[70px] w-[70px]">
+                      <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-black-1.svg" alt="" width="70" height="70" />
+                      <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-orange-1.svg" alt="service-icon-orange-1"
+                          width="70" height="70"
+                          class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                  </div>
+                  <h3
+                      class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                      <a class='hover:text-colorOrangyRed' href='/service-details'>
+                          Resource Flexibility
+                      </a>
+                  </h3>
+
+                  <p class="mb-12 duration-300 group-hover:text-white">
+                      This is an excellent option for people & small businesses
+                      who are starting out.
+                  </p>
+
+                  <a class='relative inline-block h-[30px] w-[30px] duration-300' href='/service-details'>
+                      <img src="https://azzle.netlify.app/assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                          height="30" />
+                      <img src="https://azzle.netlify.app/assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                          height="30"
+                          class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                  </a>
+              </li>
+              <!-- Service Item -->
+              <!-- Service Item -->
+              <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                  <div class="relative mb-9 h-[70px] w-[70px]">
+                      <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-black-2.svg" alt="service-icon-black-2"
+                          width="70" height="70" />
+                      <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-orange-2.svg" alt="service-icon-orange-1"
+                          width="70" height="70"
+                          class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                  </div>
+
+                  <h3
+                      class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                      <a class='hover:text-colorOrangyRed' href='/service-details'>
+                          Managed Services
+                      </a>
+                  </h3>
+
+                  <p class="mb-12 duration-300 group-hover:text-white">
+                      This is an excellent option for people & small businesses
+                      who are starting out.
+                  </p>
+
+                  <a class='relative inline-block h-[30px] w-[30px] duration-300' href='/service-details'>
+                      <img src="https://azzle.netlify.app/assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                          height="30" />
+                      <img src="https://azzle.netlify.app/assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                          height="30"
+                          class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                  </a>
+                  <!-- Features Item -->
+                  <!-- Features Item -->
+              </li>
+              <!-- Service Item -->
+              <!-- Service Item -->
+              <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                  <div class="relative mb-9 h-[70px] w-[70px]">
+                      <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-black-3.svg" alt="service-icon-black-3"
+                          width="70" height="70" />
+                      <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-orange-3.svg" alt="service-icon-orange-3"
+                          width="70" height="70"
+                          class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                  </div>
+                  <h3
+                      class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                      <a class='hover:text-colorOrangyRed' href='/service-details'>
+                          Web-Based Access
+                      </a>
+                  </h3>
+
+                  <p class="mb-12 duration-300 group-hover:text-white">
+                      This is an excellent option for people & small businesses
+                      who are starting out.
+                  </p>
+
+                  <a class='relative inline-block h-[30px] w-[30px] duration-300' href='/service-details'>
+                      <img src="https://azzle.netlify.app/assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                          height="30" />
+                      <img src="https://azzle.netlify.app/assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                          height="30"
+                          class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                  </a>
+              </li>
+              <!-- Service Item -->
+              <!-- Service Item -->
+              <li class="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
+                  <div class="relative mb-9 h-[70px] w-[70px]">
+                      <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-black-4.svg" alt="service-icon-black-4"
+                          width="70" height="70" />
+                      <img src="https://azzle.netlify.app/assets/img/th-1/service-icon-orange-4.svg" alt="service-icon-orange-4"
+                          width="70" height="70"
+                          class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                  </div>
+                  <h3
+                      class="mb-4 block text-xl leading-tight -tracking-[0.5px] group-hover:text-white xl:text-2xl xxl:text-[28px]">
+                      <a class='hover:text-colorOrangyRed' href='/service-details'>
+                          Resource Flexibility
+                      </a>
+                  </h3>
+
+                  <p class="mb-12 duration-300 group-hover:text-white">
+                      This is an excellent option for people & small businesses
+                      who are starting out.
+                  </p>
+
+                  <a class='relative inline-block h-[30px] w-[30px] duration-300' href='/service-details'>
+                      <img src="https://azzle.netlify.app/assets/img/th-1/arrow-right-black.svg" alt="arrow-right-black" width="30"
+                          height="30" />
+                      <img src="https://azzle.netlify.app/assets/img/th-1/arrow-right-orange.svg" alt="arrow-right-black" width="30"
+                          height="30"
+                          class="absolute left-0 top-0 h-full w-full opacity-0 transition-all duration-300 ease-linear group-hover:opacity-100" />
+                  </a>
+              </li>
+              <!-- Service Item -->
+          </ul>
+          <!-- Service List -->
+      </div>
+      <!-- Section Container -->
+  </div>
+  <!-- Section Spacer -->
+</section>
+
+
+
+<section id="content-section-1">
+  <!-- Section Spacer -->
+  <div class="pb-20 xl:pb-[150px]">
+      <!-- Section Container -->
+      <div class="global-container">
+          <div class="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-20 xl:gap-28 xxl:gap-32">
+              <!-- Content Left Block -->
+              <div class="jos order-2wow animate__animated animate__fadeInRight overflow-hidden rounded-md md:order-1"
+                  data-jos_animation="fade-left">
+                  <img src="https://azzle.netlify.app/assets/img/th-1/content-image-1.jpg" alt="content-image-1" width="526"
+                      height="450" class="h-auto w-full" />
+              </div>
+              <!-- Content Left Block -->
+              <!-- Content Right Block -->
+              <div class="jos order-1 md:order-2 wow animate__animated animate__fadeInLeft" data-jos_animation="fade-right">
+                  <!-- Section Content Block -->
+                  <div class="grid grid-rows-1  ">
+                    <h2 class="text-[5rem] font-[700]">Accessible to a</h2>
+                    <h2 class="text-[5rem] font-[700]">wider audience</h2>
+                  </div>
+                  <!-- Section Content Block -->
+                  <div class="text-lg leading-[1.4] lg:text-[21px]">
+                      <p class="text-[1.4rem] mb-7 last:mb-0">
+                          Advanced AI capabilities accessible to a broader audience,
+                          including small & medium-sized businesses and individuals
+                          who may not have the resources or expertise to develop.
+                      </p>
+                      <p class="text-[1.4rem] mb-7 last:mb-0">
+                          Advanced AI capabilities accessible to a broader audience,
+                          including small & medium-sized businesses and individuals
+                          who may not have the resources or expertise to develop.
+                      </p>
+                  </div>
+              </div>
+              <!-- Content Right Block -->
+          </div>
+      </div>
+      <!-- Section Container -->
+  </div>
+  <!-- Section Spacer -->
+</section>
+
+<section id="content-section-2">
+  <!-- Section Spacer -->
+  <div class="pb-20 xl:pb-[150px]">
+      <!-- Section Container -->
+      <div class="global-container">
+          <div
+              class="grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-20 xl:grid-cols-[minmax(0,_1.2fr)_1fr] xl:gap-28 xxl:gap-32">
+              <!-- Content Left Block -->
+              <div class="jos order-2 overflow-hidden rounded-md" data-jos_animation="fade-left">
+                  <img src="https://azzle.netlify.app/assets/img/th-1/content-image-2.jpg" alt="content-image-2" width="526"
+                      height="450" class="h-auto w-full" />
+              </div>
+              <!-- Content Left Block -->
+              <!-- Content Right Block -->
+              <div class="jos order-1" data-jos_animation="fade-right">
+                  <!-- Section Content Block -->
+                  <div  class="wow animate__animated animate__fadeInLeft">
+                    <div class="mb-6 ">
+                      <div class="grid grid-rows-1">
+                        <h2 class="text-[5rem] font-[700]">Providing quick</h2>
+                        <h2 class="text-[5rem] font-[700]">wider audience</h2>
+                      </div>
+                    </div>
+                    <!-- Section Content Block -->
+                    <div class="text-lg leading-[1.4] lg:text-[21px]">
+                        <p class="mb-7 last:mb-0">
+                            Our AI SaaS solutions can be quickly deployed, enabling
+                            users to start benefiting from AI capabilities without
+                            lengthy setup and development times in fast-paced
+                            industries.
+                        </p>
+                  </div>
+                      <ul
+                          class="flex flex-col gap-y-5 font-dmSans text-xl leading-tight tracking-tighter text-black lg:mt-12 lg:text-[28px]">
+                          <li class="flex items-start gap-x-3">
+                              <div class="mt-[2.5px] h-[30px] w-[30px] ">
+                                  <img class="wow animate__animated animate__fadeInRight" src="https://azzle.netlify.app/assets/img/th-1/check-circle.svg" alt="check-circle"
+                                      width="30" height="30" class="h-full w-full" />
+                              </div>
+                              Ready-to-use AI capabilities system
+                          </li>
+                          <li class="flex items-start gap-x-3">
+                              <div class="mt-[2.5px] h-[30px] w-[30px]">
+                                  <img src="https://azzle.netlify.app/assets/img/th-1/check-circle.svg" alt="check-circle"
+                                      width="30" height="30" class="h-full w-full" />
+                              </div>
+                              Users can quickly integrate AI features
+                          </li>
+                          <li class="flex items-start gap-x-3">
+                              <div class="mt-[2.5px] h-[30px] w-[30px]">
+                                  <img src="https://azzle.netlify.app/assets/img/th-1/check-circle.svg" alt="check-circle"
+                                      width="30" height="30" class="h-full w-full" />
+                              </div>
+                              Time savings translate to cost savings
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <!-- Content Right Block -->
+          </div>
+      </div>
+      <!-- Section Container -->
+  </div>
+  <!-- Section Spacer -->
+</section>
+<section id="funfact-section" class="bg-black wow animate__animated animate__fadeInUp rounded-xl text-white py-12">
+  <div class="container  mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+    
+    <!-- Cột hình ảnh bên trái -->
+    <div class="relative overflow-hidden rounded-[30px] lg:rounded-[50px]">
+      <img
+        src="https://azzle.netlify.app/assets/img/th-1/funfact-image.jpg"
+        alt="funfact-image"
+        class="w-658 h-880 object-cover object-center lg:h-[35rem] xl:h-full"
+      />
+      <a
+        data-fslightbox="gallery"
+        href="https://www.youtube.com/watch?v=3nQNiWdeH2Q"
+        class="absolute left-1/2 top-1/2 z-[1] -translate-x-1/2 -translate-y-1/2"
+      >
+        <div
+          class="relative  flex h-[120px] w-[120px] items-center  hover:bg-red-600 hover:text-white justify-center rounded-full border-[3px] border-black bg-white text-lg font-bold backdrop-blur-[2px] transition-all duration-300 hover:bg-colorOrangyRed hover:text-white"
+        >
+          Play
+          <div
+            class="absolute -z-[1] h-[110%] w-[110%] animate-[ping_1.5s_ease-in-out_infinite] rounded-full bg-gray-600 opacity-30"
+          ></div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Cột nội dung bên phải -->
+    <div class="flex flex-col gap-10">
+      
+      <!-- Nội dung hàng 1 -->
+      <div class="px-6 py-8 sm:py-10 md:px-6 xl:px-4">
+        <h2 class="text-white text-[5rem] font-bold mb-4">AI-powered that <br> streamline tasks</h2>
+        <p class="text-[1rem] leading-[1.6] lg:text-[21px]">
+          As your business grows or your AI SaaS needs change, you can easily adjust your subscription
+          level to match those needs. This flexibility ensures that AI remains an asset.
+        </p>
+      </div>
+
+      <!-- Nội dung hàng 2 -->
+      <div class="px-6 py-8 sm:py-10 md:px-6 xl:px-4 border-t border-gray-700">
+        <ul class="flex flex-col sm:flex-row justify-around items-center gap-y-8 sm:gap-x-12 text-center">
+          <li>
+            <h3 class="text-[8rem] font-[660] text-red-600">
+              <span class="counter">92</span>%
+            </h3>
+            <p class="text-[1.5rem] mt-2 text-white">Customer service inquiries</p>
+          </li>
+         <li>
+                <h3 class="text-[8rem] font-[660] text-red-600">
+                <span class="counter">  75</span>%
+                </h3>
+                <p class="text-[1.5rem] mt-2 text-white">Using financial institutions</p>
+              </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- JavaScript -->
+    
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+ const sidebarMenu = document.getElementById("sidebarMenu");
+ const overlay = document.getElementById("overlay");
+
+ const pagesMenu = document.getElementById("pagesMenu");
+ const demoMenu = document.getElementById("demoMenu");
+ const serviceMenu = document.getElementById("serviceMenu");
+
+ // Mở menu chính
+ document.getElementById("openMenu")?.addEventListener("click", () => {
+   sidebarMenu?.classList.remove("-translate-x-full");
+   overlay?.classList.remove("hidden");
+ });
+
+ // Đóng menu chính
+ document.getElementById("closeMenu")?.addEventListener("click", () => {
+   sidebarMenu?.classList.add("-translate-x-full");
+   overlay?.classList.add("hidden");
+ });
+
+ // Đóng các menu con
+ document.getElementById("closePagesMenu")?.addEventListener("click", () => {
+   pagesMenu?.classList.add("-translate-x-full");
+   overlay?.classList.add("hidden");
+ });
+
+ // Overlay click → đóng hết
+ overlay?.addEventListener("click", () => {
+   sidebarMenu?.classList.add("-translate-x-full");
+   pagesMenu?.classList.add("-translate-x-full");
+   demoMenu?.classList.add("-translate-x-full");
+   serviceMenu?.classList.add("-translate-x-full");
+   overlay?.classList.add("hidden");
+ });
+
+ // Mở submenu
+ document.getElementById("openPagesMenu")?.addEventListener("click", () => {
+   sidebarMenu?.classList.add("-translate-x-full");
+   pagesMenu?.classList.remove("-translate-x-full");
+ });
+
+ document.getElementById("openDemoMenu")?.addEventListener("click", () => {
+   sidebarMenu?.classList.add("-translate-x-full");
+   demoMenu?.classList.remove("-translate-x-full");
+ });
+
+ document.getElementById("openServiceMenu")?.addEventListener("click", () => {
+   sidebarMenu?.classList.add("-translate-x-full");
+   serviceMenu?.classList.remove("-translate-x-full");
+ });
+
+ // Back từ submenu về menu chính
+ document.getElementById("backToMainFromPages")?.addEventListener("click", () => {
+   pagesMenu?.classList.add("-translate-x-full");
+   sidebarMenu?.classList.remove("-translate-x-full");
+ });
+
+ document.getElementById("backToMainFromDemo")?.addEventListener("click", () => {
+   demoMenu?.classList.add("-translate-x-full");
+   sidebarMenu?.classList.remove("-translate-x-full");
+ });
+
+ document.getElementById("backToMainFromService")?.addEventListener("click", () => {
+   serviceMenu?.classList.add("-translate-x-full");
+   sidebarMenu?.classList.remove("-translate-x-full");
+ });
+});
+
+$(document).ready(function(){
+$('.autoplay').slick({
+ slidesToShow: 5, // Điều chỉnh số lượng hiển thị tùy thuộc vào kích thước màn hình và khoảng cách
+ slidesToScroll: 1,
+ autoplay: true,
+ autoplaySpeed: 2000,
+ infinite: true,
+ arrows: false,
+ dots: false,
+ responsive: [
+   {
+     breakpoint: 1024,
+     settings: {
+       slidesToShow: 4, // Hiển thị 3 ảnh trên desktop (bạn có thể điều chỉnh)
+       slidesToScroll: 1,
+      // Thử dùng gap trực tiếp trong settings nếu cần
+     }
+   },
+   {
+     breakpoint: 768,
+     settings: {
+       slidesToShow: 2, // Hiển thị 2 ảnh trên tablet
+       slidesToScroll: 1,
+      
+     }
+   },
+   {
+     breakpoint: 480,
+     settings: {
+       slidesToShow: 1, // Hiển thị 1 ảnh trên mobile
+       slidesToScroll: 1,
+      
+     }
+   }
+ ]
+});
+});
+ </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="./libs/slick/slick.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="./libs/wowjs/wow.min.js">
+  new WOW().init();
+ </script>
+ <script src="./libs/countup/jquery.countup.min.js">
+ 
+
+ </script>
+ <script>
+ $('.counter').countUp({
+  'time': 2000,
+  'delay': 10
+});
+
+ </script>
+  </body>
+
+</html>
